@@ -60,7 +60,7 @@ if a>0 and b> and c>0:
         elif a==b or b==c or a==c
             print("võrdhaarne")
         else:
-            print("")
+            print("erikülgne")
     else:
         print("Nurgad")
 else:
