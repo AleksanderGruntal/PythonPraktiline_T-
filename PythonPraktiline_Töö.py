@@ -41,3 +41,28 @@ try:
        print("Negatiivne")
 except:
     print("Vale andmetüüp")
+#2
+from math import *
+a=float(input("напишите число => *"))
+b=float(input("напишите число => *"))
+v=float(input("напишите число => *"))
+try:
+    if(a,b,c)>0:
+        print()
+    if a,b,c
+#3
+a,b,c=map(float,input("a,b,c").split())
+if a>0 and b> and c>0:
+    if a+b+c==180:
+        print("kolmnurk")
+        if a==b==c:
+            print("võrdkülgne")
+        elif a==b or b==c or a==c
+            print("võrdhaarne")
+        else:
+            print("")
+    else:
+        print("Nurgad")
+else:
+    print("<0")
+#4
