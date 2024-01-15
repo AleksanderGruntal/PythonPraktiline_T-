@@ -42,15 +42,6 @@ try:
 except:
     print("Vale andmetüüp")
 #2
-from math import *
-a=float(input("напишите число => *"))
-b=float(input("напишите число => *"))
-v=float(input("напишите число => *"))
-try:
-    if(a,b,c)>0:
-        print()
-    if a,b,c
-#3
 a,b,c=map(float,input("a,b,c").split())
 if a>0 and b> and c>0:
     if a+b+c==180:
@@ -65,4 +56,27 @@ if a>0 and b> and c>0:
         print("Nurgad")
 else:
     print("<0")
+#3
+v=input("Kas tahad 1-7 numberist saada päeva nimetus?")
+if v.lower()=="jah":
+    nr=int(input("Päeva number: "))
+    if nr==1:
+        p="esmaspäev"
+    elif nr==2:
+        p="teisipäev"
+    elif v==3
+        p="kolmapäev"
+    elif nr==4
+        p="neljapäev"
+    elif nr==5
+        p="reede"
+    elif nr==6
+        p="laupäev"
+    elif nr==7
+        p="pühapäev"
+    print(p)
+except: 
+    print("viga")
+
 #4
+
