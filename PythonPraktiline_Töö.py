@@ -1,4 +1,4 @@
-﻿from math import *
+from math import *
 from random import *
 
 #Практическая работа (квадратное уровнение)
@@ -26,4 +26,18 @@ if otsustama=="jah":
 else: 
     print("Hüvasti")
 
+#1
 
+n=float(input("введенное число"))
+try:
+   a=int(input("Sisesta arv"))
+   if a>0:
+        print(f"Positiivne")
+      if a%2==0:
+         print(f"{a} on paaritus")
+      else:
+         print(f"{a} on paaritu")
+  else:
+       print("Negatiivne")
+except:
+    print("Vale andmetüüp")
