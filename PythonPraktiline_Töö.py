@@ -64,7 +64,7 @@ if v.lower()=="jah":
         p="esmaspäev"
     elif nr==2:
         p="teisipäev"
-    elif v==3
+    elif nr==3
         p="kolmapäev"
     elif nr==4
         p="neljapäev"
@@ -75,6 +75,8 @@ if v.lower()=="jah":
     elif nr==7
         p="pühapäev"
     print(p)
+    else: 
+    p="on vaja 1-7"
 except: 
     print("viga")
 
